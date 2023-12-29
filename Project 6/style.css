@@ -129,6 +129,8 @@ nav ul li:hover {
   top: 400px;
 }
 
+
+
 .about-section {
   display: flex;
   justify-content: center;
@@ -243,6 +245,21 @@ footer {
 }
 
 @media (max-width: 786px) {
+
+  .logo{
+    font-size: 16px;
+  }
+
+  .iphone-ipd-img img{
+    width: 500px;
+    margin-top: 30px;
+  }
+
+  .music-section{
+    padding-bottom: 30px;
+  }
+
+
   .gift-section{
     flex-direction: column;
   }

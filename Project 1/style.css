@@ -76,20 +76,35 @@
   margin-bottom: 20px;
 }
 
-.summary-section ul{
+.summary-section ul {
   font-size: 25px;
   margin-left: 20px;
   list-style: square;
   margin-bottom: 30px;
 }
 
-.summary-section ul li{
+.summary-section ul li {
   margin-bottom: 10px;
   text-align: justify;
 }
 
-footer h3{
+footer h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: end;
+}
+
+@media(max-width:786px) {
+  .top-section{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: flex-start;
+  }
+
+  .top-section img{
+    height: 150px;
+    width: 150px;
+    text-align: start;
+  }
 }
