@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(235, 198, 198), aliceblue, lightblue);
+  background-position: center;
+  background-size: cover;
+  border: 15px solid #918585;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  align-items: flex-end;
+}
+
+.image-container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-container img {
+  height: 320px;
+  width: 300px;
+}
+
+.top-section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+.top-section h4 {
+  text-align: end;
+  font-size: 20px;
+  color: black;
+}
+
+.intro-section {
+  margin-top: 2%;
+}
+
+.intro-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.summary-section {
+  margin-top: 2%;
+}
+
+.summary-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.summary-section ul{
+  font-size: 25px;
+  margin-left: 20px;
+  list-style: square;
+  margin-bottom: 30px;
+}
+
+.summary-section ul li{
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+footer h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: end;
+}
